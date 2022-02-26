@@ -1,0 +1,662 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+
+.burger{
+    display: none;
+position: absolute;
+right: 20px;
+top: 10px;
+cursor: pointer;
+}
+
+.line{
+    display: flex;
+    width: 40px;
+    border: 3px solid rgb(255, 255, 255);
+    margin-top: 8px;
+}
+
+
+  .pra h4 a {
+      width: 100%;padding: 10px;
+color: white;
+    }
+    .flex{
+        width: 100%;
+        align-items: center;
+        height: 100%;
+        display: flex;
+        align-items: center;
+    }
+
+    .flex img{
+        width: 44px;
+    
+    }
+.search-container{
+    display: flex;
+    align-items: center;
+}
+#menu-box{
+    
+    display: none;
+    flex-direction: column;
+justify-content: center;
+align-items: center;
+text-align: center;
+padding: 10px 20px;
+width: 100%;
+height: 300px;
+color: white;
+font-size: 1rem;
+background-color: rgba(0, 0, 0, 0.336);
+
+}
+
+
+#menu-box ul{
+    display: block;
+    flex-direction: column;
+
+}
+
+#menu-box ul li{
+list-style-type: none;
+margin: 10px 0; 
+}
+
+#menu-box ul li a{
+    text-decoration: none;
+   color: white;
+    }
+
+    #menu-box ul li a:hover{
+        text-decoration: underline;
+       color: rgb(233, 230, 230);
+        }
+    
+
+
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background: url(Trolltunga-Norway_GettyImages-1137510880.jpg)no-repeat center center/cover;
+background-color: rgba(0, 0, 0, 0.336);
+background-blend-mode: darken;
+
+}
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 1100px;
+    height: 100vh;
+   
+}
+nav{
+    display: flex;
+justify-content: space-between;
+width: 100%;
+padding: 20px 20px;
+background-color: rgba(0, 0, 0, 0.103);
+background-blend-mode: darken;
+
+border-bottom: 2px solid rgba(255, 255, 255, 0.438);
+}
+
+.logo{
+    display: flex;
+    color: white;
+    font-size: 1.4rem;
+    letter-spacing: 5px;
+    cursor: pointer;
+}
+.nav{
+    display: flex;
+
+}
+.nav ul{
+    display: flex;
+    
+}
+.nav ul{
+ 
+    list-style-type: none;
+}
+.nav ul li a{
+ margin: 0 20px;
+ text-decoration: none;
+ color: white;
+ font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.nav ul li a:hover{
+    margin: 0 20px;
+    text-decoration: none;
+    color: rgb(233, 231, 231);
+    transition: all ease 0.2s;
+   }
+.grid-2{
+    display: grid;
+    width: 100%;
+    grid-template-columns: 70% 30%;
+    padding-top: 70px;
+    color: white;
+    
+}
+
+.left-text-container{
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+letter-spacing: 2px;
+}
+
+
+.left-text-container h1{
+    font-size: 4rem;
+    padding: 6px 0;
+    font: 800;
+}.left-text-container p{
+ padding-top: 10px;
+ font-size: 15px;
+}
+
+
+.right-container{
+    display: flex;
+    flex-direction: column;
+    text-align:left;
+    position: relative;
+
+}
+
+.card-container{
+    display: flex;
+    width: 100%;
+   position:relative;
+    height: 250px;
+
+
+}
+
+.card-container img{
+
+    width:60%;
+   
+
+}
+.pra{
+    display: flex;
+    flex-direction: column;
+    padding: 10px 25px;
+    text-align: left;justify-content: center;
+    background-color: rgba(0, 0, 0, 0.164);
+    backdrop-filter: blur(2px);
+    width: 50%;
+    justify-content: space-between;
+}
+
+.pra p{
+padding: 20px 0;
+    
+}
+.pra h4{
+    padding: 3px 0;
+        font-size: 1.2rem;
+    }
+
+
+
+    .search-container img{
+        
+        width: 30px;
+    margin: 10px 20px;
+    
+    }
+    .search-container input{
+        background-color: transparent;
+        color: white;
+width: 50%;
+border: 0;
+    }
+
+
+    ::placeholder { 
+        color: rgb(255, 255, 255);
+       
+      }
+    .search-container select {
+        width: 65%;
+        border: 0;
+        background-color: transparent;
+        color: white;
+        background-color: rgba(0, 0, 0, 0);
+        padding: 1px 22px;
+    }
+
+    .search-container input:focus{
+        outline: 0;
+    }
+
+  
+            .search-container select:focus{
+outline: none;
+            }
+            .search-container option{
+
+background-color: black;
+text-align: center;
+padding: 50px;
+            }
+       
+
+
+            .search-container button {
+                padding: 13px 8px;
+                width: 100%;
+
+                justify-content: center;
+                align-items: center;
+                display: flex;
+                background-color: rgb(88, 88, 240);
+                border-top-right-radius: 25px;
+                color: white;
+                font-size: 1.2rem;
+                border-bottom-right-radius: 25px;
+                border: 0;
+                cursor: pointer;
+            }
+                
+
+
+    .search-container{
+        display: flex;
+        background-color: rgba(255, 255, 255, 0.185);
+       height: 50px ;
+        width: 100%;
+        top: 150px;
+        position: relative;
+        backdrop-filter: blur(2px);
+        border-radius: 50px;
+        
+    }
+
+    @media only screen and (max-width: 1228px) {
+
+        .grid-2 {
+            display: grid;
+            width: 86%;
+            grid-template-columns: 70% 30%;
+            padding-top: 70px;
+            color: white;
+        }
+
+    }
+    @media only screen and (max-width: 1008px) {
+        header {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 100vw;
+            height: 1100px;
+            background: url(Trolltunga-Norway_GettyImages-1137510880.jpg)no-repeat center center/cover;
+            background-color: rgba(0, 0, 0, 0.336);
+            background-blend-mode: darken;
+        }
+
+
+        #menu-box{
+            display: none;
+    transition: all ease-in 2s;
+   
+        }
+ 
+
+        .burger{
+            display: block;
+        position: absolute;
+        right: 20px;
+        top: 5px;
+        cursor: pointer;
+        }
+        nav {
+            display: flex;
+            justify-content: left;
+            width: 100%;
+            padding: 20px 50px;
+            background-color: rgba(0, 0, 0, 0.103);
+            background-blend-mode: darken;
+            border-bottom: 2px solid rgba(255, 255, 255, 0.438);
+      
+      
+      
+        }
+
+.nav {
+    display: none;
+
+}
+.search-container {
+    display: flex;
+    background-color: rgba(255, 255, 255, 0.185);
+    height: 50px;
+    width: 80%;
+    top: 150px;
+    position: relative;
+    backdrop-filter: blur(2px);
+    border-radius: 50px;
+}
+
+
+.grid-2 {
+    display: grid;
+    width: 86%;
+    grid-template-columns: 60% 30%;
+    padding-top: 70px;
+    color: white;
+}
+
+.left-text-container h1 {
+    font-size: 3rem;
+    padding: 6px 0;
+    font: 800;
+}
+
+
+
+
+
+
+
+
+
+      }
+
+
+
+
+
+
+      @media only screen and (max-width: 950px) {
+
+
+.grid-2{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+
+    row-gap: 50px;
+}
+.pra {
+    display: flex;
+    flex-direction: column;
+    padding: 32px 38px;
+    text-align: left;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.164);
+    backdrop-filter: blur(2px);
+    width: 50%;
+    justify-content: space-between;
+}
+.card-container {
+    display: flex;
+    width: 68%;
+    position: relative;
+    height: 250px;
+}
+
+
+
+
+      }
+
+
+
+
+      @media only screen and (max-width: 770px) {
+        .card-container {
+            display: flex;
+            width: 90%;
+            position: relative;
+            height: 250px;
+        }
+        .search-container {
+            display: flex;
+            background-color: rgba(255, 255, 255, 0.185);
+            height: 50px;
+            width: 90%;
+            top: 150px;
+            position: relative;
+            backdrop-filter: blur(2px);
+            border-radius: 50px;
+        }
+        .search-container select {
+            width: 20%;
+            border: 0;
+            background-color: transparent;
+            color: white;
+            background-color: rgba(0, 0, 0, 0);
+            padding: 1px 1px;
+        }
+      }
+
+
+
+
+
+
+
+      @media only screen and (max-width: 700px) {
+
+
+      .search-container input {
+        background-color: transparent;
+        color: white;
+        width: 30%;
+        border: 0;
+    }
+    .search-container select {
+        width: 54%;
+        border: 0;
+        background-color: transparent;
+        color: white;
+        background-color: rgba(0, 0, 0, 0);
+        padding: 1px 1px;
+    }
+
+
+
+    .search-container input {
+        background-color: transparent;
+        color: white;
+        width: 80%;
+        border: 0;
+    }
+
+
+
+
+
+
+
+
+
+}
+
+@media only screen and (max-width: 660px) {
+
+    .search-container {
+        display: flex;
+        height: 100%;
+        padding: 20px 10px;
+        flex-direction: column;
+   background-color: rgba(250, 235, 215, 0);
+    }
+   
+.flex{
+    border-radius: 30px;
+    background-color: rgba(255, 255, 255, 0.233);
+     margin: 10px 0;
+}
+    .search-container button {
+        padding: 13px 8px;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        background-color: rgb(88, 88, 240);
+    
+        border-radius: 30px;
+        color: white;
+        font-size: 1.2rem;
+       
+        border: 0;
+    }
+    .search-container input {
+
+        font-size: 1rem;
+
+    }
+
+    .search-container select {
+        width: 84%;
+        border: 0;
+        background-color: transparent;
+        color: rgb(255, 255, 255);
+        background-color: rgba(212, 212, 212, 0);
+        padding: 1px 1px;
+        font-size: 1rem;
+    
+    }
+
+    .search-container option{
+        text-align: left;
+        justify-content: left;
+    }
+
+
+
+
+
+
+
+}
+@media only screen and (max-width: 450px) {
+
+    ::placeholder { 
+    font-size: 13px;
+       
+      }
+
+    .search-container select {
+        width: 74%;
+        border: 0;
+        background-color: transparent;
+        color: rgb(255, 255, 255);
+        background-color: rgba(212, 212, 212, 0);
+        padding: 1px 1px;
+        font-size: 1rem;
+    }
+
+
+    nav {
+        display: flex;
+        justify-content: left;
+        width: 100%;
+        padding: 17px 15px;
+        background-color: rgba(0, 0, 0, 0.103);
+        background-blend-mode: darken;
+        border-bottom: 2px solid rgba(255, 255, 255, 0.438);
+    }
+
+    .left-text-container h1 {
+        font-size: 2rem;
+        padding: 2px 0;
+        font: 800;
+    }
+    .card-container {
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        position: relative;
+        height: 250px;
+    }
+
+
+
+    .card-container img {
+        width: 80%;
+    }
+
+
+    .pra {
+        display: flex;
+        flex-direction: column;
+        padding: 32px 38px;
+        text-align: left;
+        justify-content: center;
+        background-color: rgba(0, 0, 0, 0.164);
+        backdrop-filter: blur(2px);
+        width: 80%;
+        justify-content: space-between;
+    }
+    .pra h4 a {
+color: white;
+    }
+    .p{
+padding: 20px 0;
+
+    }
+
+    .grid-2{
+      margin-bottom: 50px;
+    }
+
+
+
+
+
+}
+
+
+
+
+@media only screen and (max-width: 400px) {
+
+
+    .search-container select {
+        width: 62%;
+        border: 0;
+        background-color: transparent;
+        color: rgb(255, 255, 255);
+        background-color: rgba(212, 212, 212, 0);
+        padding: 1px 1px;
+        font-size: 1rem;
+    }
+
+
+    .pra {
+        display: flex;
+        flex-direction: column;
+        padding: 32px 38px;
+        text-align: left;
+        justify-content: center;
+        background-color: rgba(0, 0, 0, 0.164);
+        backdrop-filter: blur(2px);
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    .card-container img {
+        width: 100%;
+    }
+
+}
