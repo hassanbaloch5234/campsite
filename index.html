@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>campsite</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <section>   
+            <nav>
+        <div class="nav">
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">Contact</a></li>
+                <li><a href="">About</a></li>
+            </ul>
+        </div>
+            <div class="logo">
+                CAMSITE
+            </div>
+            <div class="nav">
+            <ul>
+                <li><a href="">Sign Up</a></li>
+                <li><a href="">Login</a></li>
+                <li><a href="">More</a></li>
+            </ul>
+        </div>
+
+
+        <div class="burger" onclick="toggleMenu()">
+            <div class="line line1"></div>
+            <div class="line line2"></div>
+            <div class="line line3"></div>
+        </div>
+
+
+
+        
+     
+</nav>
+<div class="mobile-nav " id="menu-box">
+    <ul>  
+        <li><a href="">Home</a></li>
+        <li><a href="">Contact</a></li>
+        <li><a href="">About</a></li>
+        <li><a href="">Sign Up</a></li>
+        <li><a href="">Login</a></li>
+        <li><a href="">More</a></li>
+       
+    </ul>
+</div>
+        <div class="grid-2">
+            <div class="left-text-container">
+                <h1>Beatifull places </h1>   <h1>in the world</h1>
+                <p>plan your vacation with us coming summer  </p><p> to visit  any place in the  world</p>
+
+
+
+            </div>
+
+<div class="right-container">
+    <div class="card-container">
+        <div class="pra">
+            <h4>trending</h4>
+            <div class="p">
+            <h2>Tokyo <br>
+          Cameso
+
+          <br>
+          Hill
+        </h2>
+    </div>
+            <h4> <a href="">Book&nbsp;now</a> </h4>
+        </div>
+        <img src="Most-beautiful-places-to-visit-in-India.jpg">
+
+    </div>
+</div>
+
+
+
+
+
+        </div>
+
+        <div class="search-container">
+            <div class="flex">
+            <img src="search.png">
+            <input type="text" placeholder="Ever been to new york">
+        </div>
+        <div class="flex">
+        <img src="location.png">
+            <select name="cars" id="cars">
+                <option value="norway">Norway</option>
+                <option value="china">China</option>
+                <option value="america">America</option>
+                <option value="canada">Canada</option>
+              </select>
+            </div>
+              <div class="flex">
+                <button>Search</button>
+            </div>
+      
+
+        </div>
+</section>
+    </header>
+
+    <script>
+        function toggleMenu() {
+          var menuBox = document.getElementById('menu-box');    
+          if(menuBox.style.display == "block" ) { // if is menuBox displayed, hide it
+            menuBox.style.display = "none";
+          }
+          else { // if is menuBox hidden, display it
+            menuBox.style.display = "block";
+          }
+        }
+        </script>
+
+</body>
+</html>
